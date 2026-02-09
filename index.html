@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cargando...</title>
+    <script>
+        // PEGA AQUÍ TUS 10 LINKS DE GOOGLE FORMS
+        const formularios = [
+            "https://docs.google.com/forms/d/e/1FAIpQLSd0oQKqi9z9tiVZtxYguenNkmf8IbrzHv8Y1z0xq-vjtje7Tg/viewform",
+            "https://docs.google.com/forms/d/e/1FAIpQLSdo2nG90h3oUOcUZvJU4rVhIrYY79iVNcD45FrkuAzeAwEeAQ/viewform",
+            "https://docs.google.com/forms/d/e/1FAIpQLSdjRFRPu3yK68u4diER2jQCR2g0hUYPw6_R540Qrlo9nuJNtg/viewform",
+            "https://docs.google.com/forms/d/e/1FAIpQLScbArVSf1gn-e-j1s3dpuz5Y0QWL6J2qldL93OPwL3CbQ9egg/viewform",
+            "https://docs.google.com/forms/d/e/1FAIpQLSe7QEVFvsmLerhKMcQ7MYgPD9V9yN4DnbDdlGIeNod0RO0WUQ/viewform",
+            "https://docs.google.com/forms/d/e/1FAIpQLSfH9FyWVV9eTtGK0BkRN0B8BGJMijXNGxl2fqBbIFHsAVENdQ/viewform",
+            "https://docs.google.com/forms/d/e/1FAIpQLSdJaq6MuOXqpDPFT4dgUmAzn1qT7W0jW0A6grQZqQWn0FRoNQ/viewform",
+            "https://docs.google.com/forms/d/e/1FAIpQLScqKSK1apLNeefzAeErOJX3-s0w1TVRJzdVbzIKHPPoQ6wUfw/viewform",
+            "https://docs.google.com/forms/d/e/1FAIpQLSe2K0JodBsJ3nt6HIALAYzkyk1k2UAaKhR_2Uq1YcHkAdRseQ/viewform",
+            "https://docs.google.com/forms/d/e/1FAIpQLSeaORLNgY-j46qRx_kTcs5iOGH78rustxhJCqxDJpllhX-iJg/viewform"
+        ];
+
+        // Función que elige uno al azar y redirige
+        window.onload = function() {
+            const indiceAleatorio = Math.floor(Math.random() * formularios.length);
+            window.location.replace(formularios[indiceAleatorio]);
+        };
+    </script>
+</head>
+<body>
+    <p>Redirigiendo al formulario...</p>
+</body>
+</html>
